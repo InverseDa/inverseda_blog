@@ -10,5 +10,8 @@
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.14"
   },
-  "description": "None"
+  "description": "None",
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
+  }
 }
