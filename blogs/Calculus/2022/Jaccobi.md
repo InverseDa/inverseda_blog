@@ -39,35 +39,42 @@ $$
 $$
 因此，如果
 $$
-x=x(u,v)\\
-y=y(u,v)
-$$
-那么
-$$
-dx=\frac{\partial x}{\partial u}du+\frac{\partial x}{\partial v}dv\\
-dy=\frac{\partial y}{\partial u}du+\frac{\partial y}{\partial v}dv
+\begin{aligned}
+&x=x(u,v)
+\\
+&y=y(u,v)
+\end{aligned}
 $$
 那么
 $$
 \begin{aligned}
-dx\wedge dy&=(\frac{\partial x}{\partial u}du+\frac{\partial x}{\partial v}dv)\wedge(\frac{\partial y}{\partial u}du+\frac{\partial y}{\partial v}dv)\\
-&=\frac{\partial x}{\partial u}\frac{\partial y}{\partial u}du\wedge du+\frac{\partial x}{\partial u}\frac{\partial y}{\partial v}du\wedge dv-\frac{\partial x}{\partial v}\frac{\partial y}{\partial u}du\wedge dv+\frac{\partial x}{\partial v}\frac{\partial y}{\partial v}dv\wedge dv\\
-&=\frac{\partial x}{\partial u}\frac{\partial y}{\partial v}du\wedge dv-\frac{\partial x}{\partial v}\frac{\partial y}{\partial u}du\wedge dv\\
+&dx=\frac{\partial x}{\partial u}du+\frac{\partial x}{\partial v}dv
+\\
+\\
+&dy=\frac{\partial y}{\partial u}du+\frac{\partial y}{\partial v}dv
+\end{aligned}
+$$
+那么
+$$
+\begin{aligned}
+dx\wedge dy&=(\frac{\partial x}{\partial u}du+\frac{\partial x}{\partial v}dv)\wedge(\frac{\partial y}{\partial u}du+\frac{\partial y}{\partial v}dv)\\ \\
+&=\frac{\partial x}{\partial u}\frac{\partial y}{\partial u}du\wedge du+\frac{\partial x}{\partial u}\frac{\partial y}{\partial v}du\wedge dv-\frac{\partial x}{\partial v}\frac{\partial y}{\partial u}du\wedge dv+\frac{\partial x}{\partial v}\frac{\partial y}{\partial v}dv\wedge dv\\ \\
+&=\frac{\partial x}{\partial u}\frac{\partial y}{\partial v}du\wedge dv-\frac{\partial x}{\partial v}\frac{\partial y}{\partial u}du\wedge dv\\ \\
 &=\left|
 \begin{array}{cccc}
-\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v}\\
+\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v}\\ \\
 \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
 \end{array}
 \right|
-du\wedge dv\\
-&=|\frac{\partial(x,y)}{\partial(u,v)}|du\wedge dv\\
+du\wedge dv\\ \\
+&=|\frac{\partial(x,y)}{\partial(u,v)}|du\wedge dv\\ \\
 \end{aligned}
 $$
 我们把
 $$
 \left|
 \begin{array}{cccc}
-\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v}\\
+\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v}\\ \\
 \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
 \end{array}
 \right|=|\frac{\partial(x,y)}{\partial(u,v)}|
@@ -84,8 +91,11 @@ $$
 $$
 那么要是我们找到了：
 $$
-x=x(u,v)\\
-y=y(u,v)
+\begin{aligned}
+&x=x(u,v)
+\\
+&y=y(u,v)
+\end{aligned}
 $$
 那么就可以把这个积分写成：
 $$
@@ -93,8 +103,11 @@ $$
 $$
 比如极坐标的积分变换：
 $$
-x=r\cos \theta\\
-y=r\sin \theta
+\begin{aligned}
+&x=r\cos \theta
+\\
+&y=r\sin \theta
+\end{aligned}
 $$
 我们发现$x$和$y$都是关于$r$和$\theta$的二元函数，因此：
 $$
@@ -117,9 +130,12 @@ $$
 
 若
 $$
-x=x(u,v,w)\\
-y=y(u,v,w)\\
-z=z(u,v,w)
+\begin{aligned}
+&x=x(u,v,w)\\
+&y=y(u,v,w)\\
+&z=z(u,v,w)
+\end{aligned}
+
 $$
 那么
 $$
@@ -130,8 +146,8 @@ $$
 |\frac{\partial(x,y,z)}{\partial(u,v,w)}|=
 \left|
 \begin{array}{cccc}
-\frac{\partial x}{\partial u} &\frac{\partial x}{\partial v}&\frac{\partial x}{\partial w}\\
-\frac{\partial y}{\partial u} &\frac{\partial y}{\partial v} &\frac{\partial y}{\partial w}\\
+\frac{\partial x}{\partial u} &\frac{\partial x}{\partial v}&\frac{\partial x}{\partial w}\\ \\
+\frac{\partial y}{\partial u} &\frac{\partial y}{\partial v} &\frac{\partial y}{\partial w}\\ \\
 \frac{\partial z}{\partial u} &\frac{\partial z}{\partial v} &\frac{\partial z}{\partial w}
 \end{array}
 \right|
@@ -151,8 +167,8 @@ $$
 |\frac{\partial(x,y,z)}{\partial(r,\theta,z)}|=
 \left|
 \begin{array}{cccc}
-\frac{\partial x}{\partial r} &\frac{\partial x}{\partial \theta}&\frac{\partial x}{\partial z}\\
-\frac{\partial y}{\partial r} &\frac{\partial y}{\partial \theta} &\frac{\partial y}{\partial z}\\
+\frac{\partial x}{\partial r} &\frac{\partial x}{\partial \theta}&\frac{\partial x}{\partial z}\\ \\
+\frac{\partial y}{\partial r} &\frac{\partial y}{\partial \theta} &\frac{\partial y}{\partial z}\\ \\
 \frac{\partial z}{\partial r} &\frac{\partial z}{\partial \theta} &\frac{\partial z}{\partial z}
 \end{array}
 \right|=\left|
@@ -207,16 +223,16 @@ $$
 那么，令：
 $$
 \begin{aligned}
-u&=x-\frac{1}{2}\\
-v&=y-\frac{1}{2}\\
+u&=x-\frac{1}{2}\\ \\
+v&=y-\frac{1}{2}\\ \\
 w&=\sqrt{2}(z-1)
 \end{aligned}
 $$
 即：
 $$
 \begin{aligned}
-x&=u+\frac{1}{2}\\
-y&=v+\frac{1}{2}\\
+x&=u+\frac{1}{2}\\ \\
+y&=v+\frac{1}{2}\\ \\
 z&=\frac{w}{\sqrt{2}}+1
 \end{aligned}
 $$
@@ -224,14 +240,14 @@ $$
 $$
 dxdydz=\left|
 \begin{array}{cccc}
-\frac{\partial x}{\partial u} &\frac{\partial x}{\partial v}&\frac{\partial x}{\partial w}\\
-\frac{\partial y}{\partial u} &\frac{\partial y}{\partial v} &\frac{\partial y}{\partial w}\\
+\frac{\partial x}{\partial u} &\frac{\partial x}{\partial v}&\frac{\partial x}{\partial w}\\ \\
+\frac{\partial y}{\partial u} &\frac{\partial y}{\partial v} &\frac{\partial y}{\partial w}\\ \\
 \frac{\partial z}{\partial u} &\frac{\partial z}{\partial v} &\frac{\partial z}{\partial w}
 \end{array}
 \right|dudvdw=\left|
 \begin{array}{cccc}
-1 & 0 & 0\\
-0 & 1 & 0\\
+1 & 0 & 0\\ \\
+0 & 1 & 0\\ \\
 0 & 0 & \frac{1}{\sqrt{2}}
 \end{array}
 \right|dudvdw=\frac{1}{\sqrt{2}}dudvdw
@@ -257,19 +273,27 @@ $$
 $$
 最后是二次项，$\Omega'$是个球域，满足轮换对称性，也就是：
 $$
-\iiint u^2 dudvdw = \iiint v^2 dudvdw= \iiint w^2 dudvdw
-\iiint u^2+v^2+w^2 \ dudvdw=3\iiint u^2 dudvdw
-
-\iiint u^2+v^2+w^2/2 \ dudvdw=\frac{5}{2}\iiint u^2 \ dudvdw=\frac{5}{6}\iiint u^2+v^2+w^2\ dudvdw
+\begin{aligned}
+&\iiint u^2 dudvdw = \iiint v^2 dudvdw= \iiint w^2 dudvdw \\ \\
+&\iiint u^2+v^2+w^2 \ dudvdw=3\iiint u^2 dudvdw \\ \\
+&\iiint u^2+v^2+w^2/2 \ dudvdw=\frac{5}{2}\iiint u^2 \ dudvdw=\frac{5}{6}\iiint u^2+v^2+w^2\ dudvdw 
+\end{aligned}
 $$
 由球坐标换元，可以得到：
 $$
-\frac{5}{6}\iiint u^2+v^2+w^2\ dudvdw=\frac{5}{6}\int_0^{2\pi}d\theta \int_0^\pi d\phi\int_0^1r^2·r^2\sin\phi dr=\frac{2\pi}{3}
+\begin{aligned}
+\frac{5}{6}\iiint u^2+v^2+w^2\ dudvdw=\frac{5}{6}\int_0^{2\pi}d\theta \int_0^\pi d\phi\int_0^1r^2r^2\sin\phi dr=\frac{2\pi}{3}
+\end{aligned}
+
 $$
 代入原式得到：
 $$
-\iiint_{\Omega'}\ [(u+1/2)^2+(v+1/2)^2+(w/\sqrt{2}+1)^2]\ \frac{1}{\sqrt{2}}dudvdw=
-\frac{1}{\sqrt{2}}\iiint_{\Omega'}\ [(u^2+v^2+w^2/2)+(u+v+\sqrt{2}w)+\frac{3}{2}]\ dudvdw=\frac{1}{\sqrt{2}}(\frac{2\pi}{3}+\pi)=\frac{5\sqrt{2}\pi}{6}
+\begin{aligned}
+\iiint_{\Omega'}\ [(u+1/2)^2+(v+1/2)^2+(w/\sqrt{2}+1)^2]\ \frac{1}{\sqrt{2}}dudvdw&=
+\frac{1}{\sqrt{2}}\iiint_{\Omega'}\ [(u^2+v^2+w^2/2)+(u+v+\sqrt{2}w)+\frac{3}{2}]\ dudvdw \\ \\
+&=\frac{1}{\sqrt{2}}(\frac{2\pi}{3}+\pi)=\frac{5\sqrt{2}\pi}{6}
+\end{aligned}
+
 $$
 故质量：
 $$

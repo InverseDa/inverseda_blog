@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: InverseDa's Blog
-tagline: 分享所学知识，记录生活趣事。
+tagline: 分享所学知识，记录生活趣事
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

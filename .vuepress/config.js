@@ -75,13 +75,25 @@ module.exports = {
         "author": "InverseDa",
         "authorAvatar": "/avatar.jpg",
         "record": "xxxx",
-        "startYear": "2022"
+        "startYear": "2022",
+        "vssueConfig": {
+            "platform": 'github',
+            "owner": 'InverseDa',
+            "repo": 'NAME_OF_REPO',
+            "clientId": '5d94b2ddc2a1e3919afd',
+            "clientSecret": '6b131af9a21dcd3ecc4bea62356a2599f95d0e18',
+        }
     },
     "markdown": {
         "lineNumbers": true
     },
     extendMarkdown(md) {
         md.set({html: true});
-        md.use(require("markdown-it-katex"));
+        md.use(require("markdown-it-mathjax3"),
+            {
+                tex: {
+                    tags: 'ams'
+                }
+            });
     },
 }

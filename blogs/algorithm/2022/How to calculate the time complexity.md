@@ -91,7 +91,7 @@ T(n)=\sum_{i=0}^{n-1}\sum_{j=i+1}^{n-1}1=\sum_{i=0}^{n-1}(n-i-1)=n^2/2-n/2=O(n^2
 $$
 ​	法②：
 $$
-T(n)=\sum_{i=0}^{n-1}\sum_{j=i+1}^{n-1}1\sim\iint didj=\int_{i=0}^{i=n-1}di\int_{j=i+1}^{j=n-1}dj=\int_{i=0}^{i=n-1}(n-i-1)di=n^2-\frac{i^2}{2}|_0^{n-1}-n
+T(n)=\sum_{i=0}^{n-1}\sum_{j=i+1}^{n-1}1\sim\iint didj=\int_{i=0}^{i=n-1}di\int_{j=i+1}^{j=n-1}dj\\ =\int_{i=0}^{i=n-1}(n-i-1)di=n^2-\frac{i^2}{2}|_0^{n-1}-n
 =n^2/2-1/2=O(n^2)
 $$
 ​	在这里可以发现积分的结果一般比离散求和要大，这保证了时间上界，所以积分近似有效且高效。
