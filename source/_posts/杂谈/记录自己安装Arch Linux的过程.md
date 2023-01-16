@@ -20,7 +20,7 @@ tags: 'Linux'
 
 ​		在Windows平台上，可以用Rufus制作启动盘，虽然看起来界面简陋，但是实际上很好用很稳定：
 
-![image-20221207022201066](/Users/miaokeda/Library/Application Support/typora-user-images/image-20221207022201066.png)
+![image-20221207022201066](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20221207022201066.png)
 
 ​		打开Rufus，引导文件类型选择你下载的镜像，目标系统类型一定要是UEFI（不然装不了），然后生成启动盘就可以了。
 
