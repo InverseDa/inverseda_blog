@@ -46,11 +46,10 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/InverseDa
 footer:
     links:
         Creative Commons:
@@ -61,10 +60,10 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/InverseDa
 article:
     highlight:
-        theme: atom-one-light
+        theme: atom-one-dark
         clipboard: true
         fold: unfolded
     readtime: true
@@ -206,7 +205,7 @@ plugins:
     hotjar:
         site_id:
     katex: false
-    mathjax: false
+    mathjax: true
     outdated_browser: false
     progressbar: true
     statcounter:
