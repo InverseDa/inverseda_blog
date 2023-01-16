@@ -84,8 +84,7 @@ search:
 comment:
     type: utterances
     repo: InverseDa/inverseda_blog_comments
-    issue_term: pathname        # 必填项，与issue_number二选一填写
-    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
+    issue_term: pathname
     label: 💬
     theme: github-light
 share:
