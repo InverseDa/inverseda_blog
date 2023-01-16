@@ -1,8 +1,8 @@
 version: 5.1.0
 variant: default
-logo: /img/logo.svg
+logo: https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/avt.jpeg
 head:
-    favicon: /img/favicon.svg
+    favicon: https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/avt.jpeg
     manifest:
         name:
         short_name:
@@ -103,7 +103,7 @@ widgets:
         author: InverseDa
         author_title: 
         location: Shenzhen, Guangdong, China
-        avatar:
+        avatar: https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/avt.jpeg
         avatar_rounded: false
         gravatar:
         follow_link: https://github.com/InverseDa
