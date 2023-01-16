@@ -90,7 +90,7 @@ comment:
     theme: github-light
 share:
     type: sharethis
-    install_url: ''
+    install_url: https://platform-api.sharethis.com/js/sharethis.js#property=63c55b17c2d2a80019406088&product=inline-share-buttons&source=platform
 sidebar:
     left:
         sticky: false
@@ -150,22 +150,6 @@ widgets:
         order_by: name
         amount:
         show_count: true
-    -
-        position: left
-        type: subscribe_email
-        description:
-        feedburner_id: ''
-    -
-        position: left
-        type: adsense
-        client_id: ''
-        slot_id: ''
-    -
-        position: left
-        type: followit
-        description:
-        action_url: ''
-        verification_code: ''
 plugins:
     animejs: true
     back_to_top: true
