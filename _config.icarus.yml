@@ -83,7 +83,7 @@ search:
     index_pages: true
 comment:
     type: utterances
-    repo: InverseDa/inverseda_blog_comments
+    repo: InverseDa/inverseda_blog
     issue_term: pathname
     label: 💬
     theme: github-light
