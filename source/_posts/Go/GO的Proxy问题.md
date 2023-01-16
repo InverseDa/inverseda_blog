@@ -1,4 +1,6 @@
-# Go的Proxy问题
+---
+title: Go的Proxy问题
+---
 
 - 设置GOPROXY代理：
 

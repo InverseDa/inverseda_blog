@@ -1,3 +1,8 @@
+---
+tiiel: 快速入门C++
+date: '2020-09-03 00:00:01'
+tags: 'C++'
+---
 ### C++的输入与输出
 
 头文件为<iostream>，一般用cout流输出、cin流输入，他们都在标准名称空间std内，所以要加上using namespace std。

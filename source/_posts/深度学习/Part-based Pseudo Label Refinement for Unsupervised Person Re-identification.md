@@ -1,4 +1,8 @@
-# **Part-based Pseudo Label Refinement for Unsupervised Person Re-identification**
+---
+title: Part-based Pseudo Label Refinement for Unsupervised Person Re-identification
+date: '2021-02-05 00:00:01'
+tags: '深度学习'
+---
 
 ## 1. Abstract
 

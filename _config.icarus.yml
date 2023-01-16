@@ -82,28 +82,12 @@ search:
     type: insight
     index_pages: true
 comment:
-    type: disqus
-    shortname: ''
-donates:
-    -
-        type: afdian
-        url: ''
-    -
-        type: alipay
-        qrcode: ''
-    -
-        type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
-    -
-        type: paypal
-        business: ''
-        currency_code: USD
-    -
-        type: wechat
-        qrcode: ''
+    type: utterances
+    repo: InverseDa/inverseda_blog_comments
+    issue_term: pathname        # 必填项，与issue_number二选一填写
+    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
+    label: 💬
+    theme: github-light
 share:
     type: sharethis
     install_url: ''
@@ -116,17 +100,17 @@ widgets:
     -
         position: left
         type: profile
-        author: Your name
-        author_title: Your title
-        location: Your location
+        author: InverseDa
+        author_title: 
+        location: Shenzhen, Guangdong, China
         avatar:
         avatar_rounded: false
         gravatar:
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/InverseDa
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/InverseDa
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
