@@ -37,20 +37,28 @@ next数组计算方法如下
 ![img](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20201203201247925.png)
 
 虽然我们知道$dp[j]=k$（在图中k为3，说明j处的最长公共前后缀的长度是3），但是当指向$j+1$的时候，可以看到公共的前后缀变成了AB，显然AB的长度为2，这个值刚好为$dp[k]+1$，因此此时$dp[j+1]=dp[k]+1$，**并且k应当回溯，因为j往后的字符串很有可能和$dp[k]$前的字符串相匹配，如果不回溯就会找不到后面的最长公共前后缀了！**
+
+<div>
 $$
 dp[j+1]=\left\{\begin{aligned}
-&k+1=dp[j]+1,\ k++,\ j++\ \ &\bold{if\ p[j]=p[k]}\\
-&dp[k]+1,\ \ \ k=dp[k]+1, j++\ \ &\bold{if\ p[j] \ne p[k]}
+&k+1=dp[j]+1,\ k++,\ j++\ \ &\boldsymbol{if\ p[j]=p[k]}\\
+&dp[k]+1,\ \ \ k=dp[k]+1, j++\ \ &\boldsymbol{if\ p[j] \ne p[k]}
 \end{aligned}
 \right.\\
 $$
+<div>
+
 其中$dp[0]=-1, dp[1]=0$。并且只有$p[j]=p[k]$的时候，$k,j$指针都向右边移动。当$ p[j] \ne p[k]$的时候，我们是将k进行回溯了，即$k=dp[k]+1$，并且j向右边移动。因此有一种更笼统的写法：
+
+<div>
 $$
 \begin{aligned}
-&\bold{if\ p[j]=p[k]},dp[j+1]=k+1,\ j++,\ k++\\
-&\bold{if\ p[j]\ne p[k]},\ k=dp[k]
+&\boldsymbol{if\ p[j]=p[k]},dp[j+1]=k+1,\ j++,\ k++\\
+&\boldsymbol{if\ p[j]\ne p[k]},\ k=dp[k]
 \end{aligned}
 $$
+<div>
+
 这个版本更适合用于循环，表达非常简单！既然状态转移方程找到了，我们就该写循环主体了：
 
 首先，字符串从0开始，一般规定$dp[0]=-1$：
