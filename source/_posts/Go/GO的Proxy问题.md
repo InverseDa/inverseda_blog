@@ -1,5 +1,9 @@
 ---
 title: Go的Proxy问题
+tags: 
+- 环境配置
+categories:
+- Go
 ---
 
 - 设置GOPROXY代理：

@@ -67,7 +67,7 @@ article:
         clipboard: true
         fold: unfolded
     readtime: true
-    update_time: true
+    update_time: false
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -94,7 +94,7 @@ sidebar:
     left:
         sticky: false
     right:
-        sticky: false
+        sticky: true
 widgets:
     -
         position: left

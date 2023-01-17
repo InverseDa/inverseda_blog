@@ -1,7 +1,10 @@
 ---
 title: KMP算法
 date: '2021-03-25 00:00:01'
-tags: '字符串'
+tags: 
+- 字符串
+categories:
+- 算法
 ---
 
 next数组计算方法如下

@@ -1,7 +1,11 @@
 ---
 title: 快速入门Go
 date: '2022-09-15 00:00:01'
-tags: 'Go'
+tags: 
+- Go
+- 入门
+categories:
+- Go
 ---
 
 ## Hello Golang

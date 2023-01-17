@@ -1,7 +1,11 @@
 ---
 title: 在MacOS（针对Arm架构）里配置OpenGL编程环境（Clion）
 date: '2022-10-29 00:00:01'
-tags: 'OpenGL'
+tags: 
+- OpenGL
+- 环境配置
+categories:
+- 计算机图形学
 ---
 
 ## 安装brew包管理器
