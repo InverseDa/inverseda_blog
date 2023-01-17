@@ -5,6 +5,7 @@ tags:
 - 字符串
 categories:
 - 算法
+toc: false
 ---
 
 next数组计算方法如下

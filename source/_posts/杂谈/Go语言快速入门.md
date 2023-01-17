@@ -6,6 +6,7 @@ tags:
 - 入门
 categories:
 - Go
+toc: true
 ---
 
 ## Hello Golang

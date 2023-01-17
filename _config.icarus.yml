@@ -94,7 +94,7 @@ sidebar:
     left:
         sticky: false
     right:
-        sticky: false
+        sticky: true
 widgets:
     -
         position: left

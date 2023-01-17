@@ -6,6 +6,7 @@ tags:
 - 入门
 categories:
 - C++
+toc: true
 ---
 ### C++的输入与输出
 

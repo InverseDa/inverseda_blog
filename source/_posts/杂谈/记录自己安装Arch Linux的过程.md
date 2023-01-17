@@ -5,6 +5,7 @@ tags:
 - 系统安装
 categories:
 - Linux
+toc: true
 ---
 
 ​		太香了，本想着那么多基于Linux内核的系统都差不多，所以一直都没装Arch Linux。有一次看到一个我比较喜欢的科技Up主配置Vscode，对于Windows而言采用的WSL2，WSL2使用的是Arch Linux。那个时候我才发现原来WSL2还可以装Arch Linux，于是我第一次装Arch Linux就在WSL2里安装的......说来奇怪。之前我都是在WSL2中装Ubuntu，然后使用Ubuntu的gcc编译、gdb调试。并且我本来想试试Clang和lldb的，但是我一直习惯用的Clion居然不支持WSL2的lldb！！我真无语了～后来发现可以在vscode里配置，于是也差不多要重新投入vscode的怀抱了（该说不说，Clion真的挺好用的，除了占用的DRAM比较大，赶紧去买内存条配下了）。这是第一次装Arch Linux。果然是出了名的麻烦，连在WSL2也要配置一些东西，虽然这些在真正安装的时候不值得一提，太简单了。

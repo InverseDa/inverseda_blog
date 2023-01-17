@@ -6,6 +6,7 @@ tags:
 - 环境配置
 categories:
 - 计算机图形学
+toc: true
 ---
 
 ## 安装brew包管理器
