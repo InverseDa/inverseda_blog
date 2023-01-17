@@ -22,7 +22,7 @@ int main(){
     return 0;
 }
 ```
-
+<!--more-->
 用cin输入，cout输出的样例：
 
 ```c++

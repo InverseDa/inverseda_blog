@@ -29,7 +29,7 @@ next数组计算方法如下
 设$dp[j]$是第j处最大公共真前后缀的长度，那么如果$p[j]==p[k]$，那必然有$dp[j+1]=dp[j]+1=k+1$（可以想象一下，后面一位字符也是相等的，那就说明这里的最大公共真前后缀的长度等于前一位的+1嘛！），并且j和k都递增一次。
 
 <img src="https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20201203201226895.png" alt="img"  />
-
+<!--more-->
 <img src="https://img-blog.csdnimg.cn/20201203201234972.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81MjYyMjIwMA==,size_16,color_FFFFFF,t_70" alt="img" style="zoom:67%;" />
 
 如果$p[j]\ne p[k]$，如图：

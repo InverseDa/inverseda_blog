@@ -28,7 +28,7 @@ brew install glfw
 注意一点，如果采用的是arm架构的M系列芯片，brew会默认把所有的文件安装在/opt/homebrew/Cellar/的一个文件夹里。如果是x86架构，那就会在/usr/local/Cellar/。这里以M系列为例子。
 
 不仅如此，brew 还会在/opt/homebrew/Cellar/的目录里建立一个目录软连接，这个soft link 指向了/opt/homebrew/Cellar/glfw/3.3.8/include 这个目录。这样子，GLFW的头文件就被包含在IDE默认搜索的路径下了。
-
+<!--more-->
 ### 配置GLAD
 
 <img src="https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/%E6%88%AA%E5%B1%8F2022-10-25%2021.03.39.png" alt="截屏2022-10-25 21.03.39" style="zoom:50%;" />
