@@ -179,17 +179,17 @@ toc: true
 
 ### 安装ASI Loader
 
-安装Silent Path之前，你需要ASI Loader，他是GTA脚本和mods的加载器，安装方法也非常简单。先从https://1drv.ms/u/s!AmZlhUlwACFugeJqDV40RgU5NAN9-g?e=dc3GRg下载Ultimate ASI Loader（同样适用于Rockstar Games Launcher）
+安装Silent Path之前，你需要ASI Loader，他是GTA脚本和mods的加载器，安装方法也非常简单。先从https://1drv.ms/u/s!AmZlhUlwACFugeJqDV40RgU5NAN9-g?e=dc3GRg  下载Ultimate ASI Loader（同样适用于Rockstar Games Launcher）
 
 ![image-20230118154158709](C:\Users\miaokeda\AppData\Roaming\Typora\typora-user-images\image-20230118154158709.png)
 
 直接解压到游戏根目录\Grand Theft Auto San Andreas即可：
 
-![image-20230118154229841](C:\Users\miaokeda\AppData\Roaming\Typora\typora-user-images\image-20230118154229841.png)
+![image-20230118154229841](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118154229841.png)
 
 ### 安装Silent Path
 
-接下来从https://cookieplmonster.github.io/mods/gta-sa/下载Silent Path：
+接下来从https://cookieplmonster.github.io/mods/gta-sa/  下载Silent Path：
 
 ![image-20230118154424304](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118154424304.png)
 
@@ -218,4 +218,20 @@ toc: true
 注意，需要你提前安装ASI Loader。
 
 直接copy到游戏根目录\Grand Theft Auto San Andreas即可。
+
+## 高清加载
+
+游戏内加载时的图片都比较模糊，可以替换成高清的。在ThirteenAG's Widescreen Fix的Github仓库中还有个前端版本frontend，所以可以安装这个：
+
+![image-20230118161223306](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118161223306.png)
+
+得到的如下的文件：
+
+![image-20230118161324116](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118161324116.png)
+
+将他copy到\Grand Theft Auto San Andreas\models下替换原文件：
+
+![image-20230118161405353](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118161405353.png)
+
+这样图片就是高清版本了，很有feel。
 
