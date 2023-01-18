@@ -18,7 +18,7 @@ toc: true
 下载GTASA Downgrader来降级：http://downgraders.rockstarvision.com/
 
 ![image-20230117175204432](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230117175204432.png)
-
+<!--more-->
 将SA DOWNGRADER.rar的内容解压到游戏根目录下\Grand Theft Auto San Andreas：
 
 ![image-20230118151202261](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118151202261.png)
@@ -41,11 +41,11 @@ toc: true
 
 其中%USERPROFILE%是指向用户主文件夹的环境变量，俗称“我的文档”的路径。
 
-## Silent Path解决兼容性问题
+## Silent Patch解决兼容性问题
 
 如果不出意外，这个时候你就应该遇到鼠标不可用的问题了。不是你鼠标的问题，是早期版本的GTASA并没有适配大于2核的CPU，所以就有这样的问题。
 
-不管怎么样，你都需要打个Silent Path补丁。不止是因为它解决了鼠标不可用问题，他还修复了特别多的BUGS，比如万恶的锁25FPS的BUG（严格来说不算BUG，但比较恶心人）和切回游戏时鼠标指针乱飘无法控制的BUG等......
+不管怎么样，你都需要打个Silent Patch补丁。不止是因为它解决了鼠标不可用问题，他还修复了特别多的BUGS，比如万恶的锁25FPS的BUG（严格来说不算BUG，但比较恶心人）和切回游戏时鼠标指针乱飘无法控制的BUG等......
 
 以下摘自官网的数据：
 
@@ -179,7 +179,7 @@ toc: true
 
 ### 安装ASI Loader
 
-安装Silent Path之前，你需要ASI Loader，他是GTA脚本和mods的加载器，安装方法也非常简单。先从https://1drv.ms/u/s!AmZlhUlwACFugeJqDV40RgU5NAN9-g?e=dc3GRg  下载Ultimate ASI Loader（同样适用于Rockstar Games Launcher）
+安装Silent Patch之前，你需要ASI Loader，他是GTA脚本和mods的加载器，安装方法也非常简单。先从https://1drv.ms/u/s!AmZlhUlwACFugeJqDV40RgU5NAN9-g?e=dc3GRg  下载Ultimate ASI Loader（同样适用于Rockstar Games Launcher）
 
 ![image-20230118161839382](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118161839382.png)
 
@@ -187,9 +187,9 @@ toc: true
 
 ![image-20230118154229841](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118154229841.png)
 
-### 安装Silent Path
+### 安装Silent Patch
 
-接下来从https://cookieplmonster.github.io/mods/gta-sa/  下载Silent Path：
+接下来从https://cookieplmonster.github.io/mods/gta-sa/  下载Silent Patch：
 
 ![image-20230118154424304](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118154424304.png)
 
@@ -201,13 +201,13 @@ toc: true
 
 ![image-20230118154732112](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118154732112.png)
 
-进入游戏，如果你的鼠标问题解决了，就说明Silent Path安装成功了。
+进入游戏，如果你的鼠标问题解决了，就说明Silent Patch安装成功了。
 
-提一嘴，Silent Path同样解决了宽屏适配问题，16:9和16:10分辨率都能适配上了。但我还是建议专门装一个修复宽屏适配问题的插件，这一会在解释。
+提一嘴，Silent Patch同样解决了宽屏适配问题，16:9和16:10分辨率都能适配上了。但我还是建议专门装一个修复宽屏适配问题的插件，这一会在解释。
 
 ## ThirteenAG's Widescreen Fix
 
-虽然Silent Path修复了高分屏适配问题，但是效果比较一般般。比如游戏画面宽屏修复了，但是游戏UI却没有。ThirteenAG's Widescreen Fix可以修复这个问题，其文件在github仓库里：https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtasa
+虽然Silent Patch修复了高分屏适配问题，但是效果比较一般般。比如游戏画面宽屏修复了，但是游戏UI却没有。ThirteenAG's Widescreen Fix可以修复这个问题，其文件在github仓库里：https://github.com/ThirteenAG/WidescreenFixesPack/releases/tag/gtasa
 
 ![image-20230118160241489](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118160241489.png)
 
