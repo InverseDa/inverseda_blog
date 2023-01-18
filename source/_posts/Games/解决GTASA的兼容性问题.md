@@ -256,3 +256,5 @@ GTASA默认的刷新率是60HZ，无论你的屏幕刷新率多高都是60HZ。C
 ## 无边框窗口化（与Chiri's resolution forcing tool冲突）
 
 在安装了ThirteenAG's Widescreen Fix的条件下，在游戏根目录\Grand Theft Auto San Andreas下新建一个wndmode.ini文件即可实现无边框窗口化，但由于是窗口化，那么这个时候游戏的刷新率跟你的屏幕一致了，于是就不需要Chiri's resolution forcing tool了。
+
+![image-20230118163703333](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118163703333.png)
