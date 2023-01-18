@@ -181,7 +181,7 @@ toc: true
 
 安装Silent Path之前，你需要ASI Loader，他是GTA脚本和mods的加载器，安装方法也非常简单。先从https://1drv.ms/u/s!AmZlhUlwACFugeJqDV40RgU5NAN9-g?e=dc3GRg  下载Ultimate ASI Loader（同样适用于Rockstar Games Launcher）
 
-![image-20230118154158709](C:\Users\miaokeda\AppData\Roaming\Typora\typora-user-images\image-20230118154158709.png)
+![image-20230118161839382](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118161839382.png)
 
 直接解压到游戏根目录\Grand Theft Auto San Andreas即可：
 
@@ -235,3 +235,24 @@ toc: true
 
 这样图片就是高清版本了，很有feel。
 
+## Chiri's resolution forcing tool
+
+GTASA默认的刷新率是60HZ，无论你的屏幕刷新率多高都是60HZ。Chiri's resolution forcing tool可以修复（必须先装ThirteenAG's Widescreen Fix）：https://helixmod.blogspot.com/2013/02/chiris-force-certain-resolutionhertz.html
+
+![image-20230118162243312](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118162243312.png)
+
+得到如下文件：
+
+![image-20230118162322752](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118162322752.png)
+
+将d3d9.dll和d3dx.ini复制到\Grand Theft Auto San Andreas
+
+![image-20230118162434430](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118162434430.png)
+
+修改d3dx.ini中的refresh_rate即可：
+
+![image-20230118162521809](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118162521809.png)
+
+## 无边框窗口化（与Chiri's resolution forcing tool冲突）
+
+在安装了ThirteenAG's Widescreen Fix的条件下，在游戏根目录\Grand Theft Auto San Andreas下新建一个wndmode.ini文件即可实现无边框窗口化，但由于是窗口化，那么这个时候游戏的刷新率跟你的屏幕一致了，于是就不需要Chiri's resolution forcing tool了。
