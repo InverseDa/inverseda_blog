@@ -1,14 +1,11 @@
-```
 ---
 title: 解决GTASA在Windows10/11的兼容性问题
-date: '2022-11-01 00:00:01'
 tags: 
 - GTA
 categories:
 - 游戏
 toc: true
 ---
-```
 
 众所周知，GTA在Steam版本问题特别多。本文针对这种情况给出了如下的解决方案和优化思路。
 
