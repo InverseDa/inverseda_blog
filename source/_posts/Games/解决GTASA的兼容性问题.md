@@ -32,7 +32,7 @@ toc: true
 
 如何确定是否降级成功？如果打开游戏出现如下标志就算成功了：
 
-
+![LOADSCS.txd - SA-MP and GTA San Andreas textures](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/LOADSCS.eax.png)
 
 如果游戏启动失败，你可能需要删掉游戏配置文件目录中的gta_sa.set，他一般位于：
 
