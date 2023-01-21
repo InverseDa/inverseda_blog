@@ -259,3 +259,37 @@ GTASA默认的刷新率是60HZ，无论你的屏幕刷新率多高都是60HZ。C
 在安装了ThirteenAG's Widescreen Fix的条件下，在游戏根目录\Grand Theft Auto San Andreas下新建一个wndmode.ini文件即可实现无边框窗口化，但由于是窗口化，那么这个时候游戏的刷新率跟你的屏幕一致了，于是就不需要Chiri's resolution forcing tool了。
 
 ![image-20230118163703333](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230118163703333.png)
+
+## ThirteenAG's III.VC.SA.LimitAdjuster
+
+ThirteenAG's III.VC.SA.LimitAdjuster用于解决GTA的一些限制问题，比如帧数限制，内存限制、车辆限制等：https://github.com/ThirteenAG/III.VC.SA.LimitAdjuster/releases/
+
+下载这个文件：
+
+![image-20230121092319868](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230121092319868.png)
+
+得到如下：
+
+![image-20230121092341782](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230121092341782.png)
+
+将文件复制到\Grand Theft Auto San Andreas\scripts即可
+
+然后修改III.VC.SA.LimitAdjuster.ini文件，找到[SALIMITS]，里面的配置参数就是针对SA的。（这个补丁同样支持GTA3和GTAVC）。
+
+![image-20230121092515180](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230121092515180.png)
+
+其中：
+
+![image-20230121092531886](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230121092531886.png)
+
+分别修改帧数限制和内存限制。用这个补丁就可以让你的游戏达到60FPS了。
+
+## Project2DFX
+
+Project2DFX用于解决GTA中远景渲染和灯光的问题，老版本中远景渲染比较垃圾（当时毕竟处于优化考虑，性能都不高）：https://thirteenag.github.io/p2dfx#about
+
+下载后得到这个文件：
+
+![image-20230121092751650](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230121092751650.png)
+
+如果装了前面的LimitAdjuster，只需要将SALoadLights.*复制到\Grand Theft Auto San Andreas\scripts即可。
