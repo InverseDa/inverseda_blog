@@ -21,7 +21,7 @@ toc: true
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230201224938.png)
 下载镜像即可：
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230201225041.png)
-
+<!--more-->
 
 ## （双系统）制作启动盘
 制作启动盘的软件有很多，但首先确保要有至少4~8GB的的U盘。我们要利用制作启动盘的软件来生成关于要安装的系统的引导文件，以便本机在启动的时候能扫到U盘的引导。
