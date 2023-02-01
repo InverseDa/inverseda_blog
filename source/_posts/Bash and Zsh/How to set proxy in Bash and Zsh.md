@@ -22,6 +22,7 @@ nvim ~/.bashrc
 or
 nvim ~/.zshrc
 ```
+<!--more-->
 Add the proxy and noproxy function:
 ```bash
 proxy(){
