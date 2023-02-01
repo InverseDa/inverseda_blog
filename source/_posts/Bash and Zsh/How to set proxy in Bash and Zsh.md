@@ -34,7 +34,7 @@ noproxy(){
 	echo "All proxy Off!"
 }
 ```
-After the bash command ==source ~/.bashrc==, you can use ==proxy== command to set the proxy on. Also use ==noproxy== command to set the proxy off.
+After the bash command `source ~/.bashrc`, you can use `proxy` command to set the proxy on. Also use `noproxy` command to set the proxy off.
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230201214625.png)
 
-You can ==echo "proxy" > ~/.zshrc== if you like to set proxy when open the terminal (Just like python aha).
+You can `echo "proxy" > ~/.zshrc` if you like to set proxy when open the terminal (Just like python aha).
