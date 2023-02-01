@@ -6,7 +6,7 @@ tags:
 - Zsh
 - Linux
 categories:
-- Bash/Zsh
+- Linux
 toc: false
 ---
 To set proxy in bash and zsh, we need to code the bash script or zsh script.
