@@ -1,5 +1,5 @@
 ---
-title: 记录自己安装Arch Linux的过程（包括M1虚拟机方法）
+title: Arch Linux基础安装
 date: '2022-10-15 00:00:01'
 tags: 
 - 系统安装
@@ -21,7 +21,7 @@ toc: true
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230201224938.png)
 下载镜像即可：
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230201225041.png)
-<!--more-->
+
 
 ## （双系统）制作启动盘
 制作启动盘的软件有很多，但首先确保要有至少4~8GB的的U盘。我们要利用制作启动盘的软件来生成关于要安装的系统的引导文件，以便本机在启动的时候能扫到U盘的引导。
@@ -353,9 +353,5 @@ reboot # 重启
 ```
 2. 重启，输入你的用户名和密码（可能会有多余输出，不用管他）
 ![image.png](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/20230202011900.png)
-现在你有了一个最基础的Arch Linux。
-为了能够投入日常使用，我们需要安装Display Manager和Windows Manager，这两者统称为Desktop Manager（简称DM）。
-常见的DM有Gnome、KDE、Xfce等等。当然，很多人也不喜欢安装这些DM，他们喜欢自己DIY。也就是分开来装。常见的组合有lightdm作为Display Manager，bspwm作为Windows Manager。这里为了照顾两派人，我们分开来讲解。（二选一）
-
-## 安装KDE桌面环境
-### 更新pacman
+现在你有了一个最基础的Arch Linux，但目前并没有图形界面。为了能够投入日常使用，我们需要安装Display Manager和Windows Manager，这两者统称为Desktop Manager（简称DM）。
+常见的DM有Gnome、KDE、Xfce等等。当然，很多人也不喜欢安装这些DM，因为有些臃肿。他们（包括我）更喜欢分开来装。常见的组合有lightdm作为Display Manager，bspwm作为Windows Manager。这里为了照顾两派人，我们分开来讲解。（二选一）
