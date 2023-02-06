@@ -34,6 +34,7 @@ toc: true
 
 但是，我更加推荐使用 `ventoy`！这款软件不需要你在制作启动盘之后重建分区表。简单来讲，这款软件能让你的U盘成为启动盘的同时，还能日常使用！安装之后，你只需要将ISO文件拷贝到U盘内即可。你没听错就是那么简单。而且日常使用也是没有任何问题的。
 
+![image.png](https://www.ventoy.net/static/img/ventoy2disk_cn.png)
 
 ## （双系统）为Arch Linux创建空余磁盘空间
 
