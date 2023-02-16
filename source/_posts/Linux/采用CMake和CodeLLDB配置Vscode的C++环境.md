@@ -2,7 +2,6 @@
 title: 采用CMake和CodeLLDB配置Vscode的C++环境
 date: '2023-02-16 00:00:01'
 tags:
-- 环境配置
 - C++
 categories:
 - C++
@@ -114,9 +113,6 @@ target_link_libraries(Project PRIVATE fmt::fmt)
 
 ```json
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
