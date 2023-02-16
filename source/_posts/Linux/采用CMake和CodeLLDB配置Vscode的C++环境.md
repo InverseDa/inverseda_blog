@@ -1,5 +1,5 @@
 ---
-title: 采用CMake和CodeLLDB配置Vscode的C++环境
+title: 采用CMake和CodeLLDB配置Vscode的Cpp环境
 date: '2022-10-15 00:00:01'
 tags:
 - Cpp
