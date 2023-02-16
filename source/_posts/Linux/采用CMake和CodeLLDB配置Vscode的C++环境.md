@@ -1,13 +1,12 @@
 ---
-title: Arch Linux基础安装123
-date: '2023-02-15 00:00:01'
+title: Arch Linux基础安装
+date: '2022-10-15 00:00:01'
 tags:
 - 系统安装
   categories:
 - Linux
   toc: true
 ---
-
 ## 为什么要选择CMake + Clangd + CodeLLDB？
 
 Microsoft的C++插件补全比较垃圾，并且采用LLDB更好一些。这个配方是跨平台的（Windows要使用WSL2），所以大家可以随便cv配置。
