@@ -1,6 +1,6 @@
 ---
 title: 采用CMake和CodeLLDB配置Vscode的C++环境
-date: '2023-02-16 00:00:01'
+date: '2023-02-17 00:00:01'
 tags:
 - C++
 categories:
@@ -109,7 +109,7 @@ target_link_libraries(Project PRIVATE fmt::fmt)
 
 ![image-20230217003611989](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230217003611989.png)
 
-由vscode的cmake文档（https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md）和codelldb的文档（https://github.com/vadimcn/vscode-lldb/blob/v1.8.1/MANUAL.md）可以知道，我们需要修改`program`为`${command:cmake.launchTargetPath}`和`type`为`lldb`：
+由vscode的cmake文档 https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md 和codelldb的文档 https://github.com/vadimcn/vscode-lldb/blob/v1.8.1/MANUAL.md 可以知道，我们需要修改`program`为`${command:cmake.launchTargetPath}`和`type`为`lldb`：
 
 ```json
 {
