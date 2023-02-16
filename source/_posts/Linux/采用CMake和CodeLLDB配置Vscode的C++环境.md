@@ -20,6 +20,8 @@ Microsoft的C++插件补全比较垃圾，并且采用LLDB更好一些。这个�
 
 ![image-20230216231520425](https://cdn.jsdelivr.net/gh/InverseDa/image@master/image/image-20230216231520425.png)
 
+<!--more-->
+
 ## CMake语法
 
 在项目文件夹中编写CMakeLists.txt文件，这里给出最基本的语法：
