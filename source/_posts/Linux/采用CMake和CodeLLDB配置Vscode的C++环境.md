@@ -3,9 +3,9 @@ title: Arch Linux基础安装
 date: '2022-10-15 00:00:01'
 tags:
 - 系统安装
-  categories:
+categories:
 - Linux
-  toc: true
+toc: true
 ---
 ## 为什么要选择CMake + Clangd + CodeLLDB？
 
