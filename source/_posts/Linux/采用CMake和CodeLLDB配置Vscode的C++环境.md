@@ -5,7 +5,7 @@ tags:
 - C++
 - vscode
 categories:
-- C++
+- Cpp
 toc: true
 ---
 ## 为什么要选择CMake + Clangd + CodeLLDB？
