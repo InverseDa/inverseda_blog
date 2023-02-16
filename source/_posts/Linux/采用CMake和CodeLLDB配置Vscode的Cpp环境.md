@@ -2,10 +2,10 @@
 title: 采用CMake和CodeLLDB配置Vscode的C++环境
 date: '2023-02-17 00:00:01'
 tags:
-- Cpp
+- C++
 - vscode
 categories:
-- Cpp
+- C++
 toc: true
 ---
 ## 为什么要选择CMake + Clangd + CodeLLDB？
