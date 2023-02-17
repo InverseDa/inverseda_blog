@@ -42,11 +42,7 @@ set(VAL 123)
 # Google Sanitizer用于内存检测，建议开启，防止UB找不到错误
 # fsanitize的参数有address（ASAN检测内存）、undefined（检测
 # UB）、leaks（检测内存未完全释放）
-set(CMAKE_CXX_FLAGS"${CMAKE_CXX_FLAGS} 
-					-fsanitize=address  
-					-fno-omit-frame-pointer 
-					-g3"
-)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -fno-omit-frame-pointer -g3")
 
 ## ==================================== Project ====================================
 # 定义项目的文件名称
