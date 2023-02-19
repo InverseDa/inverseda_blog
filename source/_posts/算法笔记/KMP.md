@@ -15,7 +15,7 @@ next数组计算方法如下
 计算的方法是：
 
 ```cpp
-		int j = 0, k = -1;
+    int j = 0, k = -1;
     while(j < p.size() - 1) {
         if(k == -1 || p[j] == p[k]) next[++j] = ++k;
         else k = next[k];
@@ -64,10 +64,10 @@ $$
 首先，字符串从0开始，一般规定$dp[0]=-1$：
 
 ```cpp
-		int k = -1, j = 0;
-		dp[0] = -1;
-		while(j < p.size() - 1) {
-  		if(k == -1 || p[j] == p[k]) dp[++j] = ++k;
-  		else k = dp[k];
-		}
+    int k = -1, j = 0;
+    dp[0] = -1;
+    while(j < p.size() - 1) {
+        if(k == -1 || p[j] == p[k]) dp[++j] = ++k;
+        else k = dp[k];
+    }
 ```
