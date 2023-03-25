@@ -121,7 +121,7 @@ widgets:
                 url: https://dribbble.com
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     -
         position: left
         type: links
