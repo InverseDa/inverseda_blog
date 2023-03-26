@@ -157,12 +157,12 @@ plugins:
     cnzz:
         id:
         web_id:
-    cookie_consent:
-        type: info
-        theme: edgeless
-        static: false
-        position: bottom-left
-        policyLink: https://www.cookiesandyou.com/
+    # cookie_consent:
+    #     type: info
+    #     theme: edgeless
+    #     static: false
+    #     position: bottom-left
+    #     policyLink: https://www.cookiesandyou.com/
     gallery: true
     google_analytics:
         tracking_id:
