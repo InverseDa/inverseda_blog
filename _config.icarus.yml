@@ -143,7 +143,7 @@ widgets:
         amount:
         show_count: true
     -
-        position: right
+        position: left
         type: toc
         index: true
 plugins:
