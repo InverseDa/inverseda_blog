@@ -119,6 +119,6 @@ feed:
   autodiscovery: true
   template:
 
-pandoc:
-  extensions:
-    - '-implicit_figures'
+# pandoc:
+#   extensions:
+#     - '-implicit_figures'
