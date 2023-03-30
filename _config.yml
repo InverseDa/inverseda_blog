@@ -118,3 +118,7 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+pandoc:
+  extensions:
+    - '-implicit_figures'
